@@ -42,8 +42,11 @@ What kind of change does this Pull Request introduce?
 - Get the code
 
 ```
-git clone git@github.com:ks6088ts/.github.git
-cd .github
+ORGANIZATION=<organization-name>
+REPOSITORY=<repository-name>
+
+git clone git@github.com:$ORGANIZATION/$REPOSITORY.git
+cd $REPOSITORY
 ```
 
 - Test the code
